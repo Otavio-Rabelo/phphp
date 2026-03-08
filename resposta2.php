@@ -1,8 +1,8 @@
 <?php
 
-$tipo = $_POST["tipoCarro"];
-$dias = $_POST["dias"];
-$km = $_POST["km"];
+$tipo = $_POST['tipoCarro'];
+$dias = $_POST['dias'];
+$km = $_POST['km'];
 
 $total = 0;
 
@@ -30,6 +30,7 @@ $total += (200 * 0.30) + (($km - 200) * 0.25);
 
 }
 
-echo "Valor total: R$ " . number_format($total, 2, ',', '.');
+echo "Valor total: R$$total" . "<br>";
+
 
 ?>

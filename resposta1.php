@@ -1,7 +1,7 @@
 <?php
 
-$peso = $_POST["campoPeso"];
-$altura = $_POST["campoAltura"];
+$peso = $_POST['campoPeso'];
+$altura = $_POST['campoAltura'];
 
 $imc = $peso / ($altura * $altura);
 
